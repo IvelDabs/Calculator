@@ -1,15 +1,25 @@
-body {
-    margin-top: 8rem;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppings', sans-serif;
 }
-#container-div {
+#container {
+    width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#calculator{
     background-color: rgb(122, 115, 115);
-    margin: auto;
-    min-width: min-content;
-    max-width: 20%;
-    padding-top: 30px;
+    padding: 20px;
     border-radius: 10px;
+
 }
 #button-div {
+    margin-top: 30px;
     padding: 1rem 2rem;
     gap: 8px;
     display: grid;
@@ -18,8 +28,10 @@ body {
 button, .ari-btn {
     background-color: rgb(122, 115, 115);
     color: wheat;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 40px;
+    background: transparent;
+    margin: 5px;
     font-size: 20px;
 }
 .ari-btn {
@@ -32,7 +44,7 @@ button, .ari-btn {
     flex: 1;
     background-color: wheat;
     justify-content: space-between;
-    width: 75%;
+    width: 80%;
     height: 12vh;
     margin: auto;
     padding: 4px 15px;
