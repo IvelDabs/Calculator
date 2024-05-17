@@ -5,6 +5,7 @@
     font-family: 'poppings', sans-serif;
 }
 #container {
+    margin: auto;
     width: 80vw;
    height: 100vh;
    display: flex;
