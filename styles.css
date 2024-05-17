@@ -1,0 +1,67 @@
+body {
+    margin-top: 8rem;
+}
+#container-div {
+    background-color: rgb(122, 115, 115);
+    margin: auto;
+    min-width: min-content;
+    max-width: 20%;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+#button-div {
+    padding: 1rem 2rem;
+    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+button, .ari-btn {
+    background-color: rgb(122, 115, 115);
+    color: wheat;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+}
+.ari-btn {
+    background-color: bisque;
+    color: black;
+    font-size: 30px;
+}
+#display-div {
+    display: flex;
+    flex: 1;
+    background-color: wheat;
+    justify-content: space-between;
+    width: 75%;
+    height: 12vh;
+    margin: auto;
+    padding: 4px 15px;
+    border-radius: 10px;
+}
+#display {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2px;
+}
+#display-txt {
+    display: flex;
+    align-self: flex-end;
+    font-size: 30px;
+    width: 80%;
+}
+#history, .clear-btn {
+    font-size: 10px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    align-self: baseline;
+}
+.clear-btn, #history {
+    display: none;
+}
+
+#equals-btn{
+    grid-column: 3 / 5;
+}
