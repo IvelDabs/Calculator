@@ -5,7 +5,7 @@
     font-family: 'poppings', sans-serif;
 }
 #container {
-    width: 100vw;
+    width: 80vw;
    height: 100vh;
    display: flex;
    align-items: center;
@@ -75,5 +75,5 @@ button, .ari-btn {
 }
 
 #equals-btn{
-    grid-column: 3 / 5;
+    grid-column: 3/ 5;
 }
